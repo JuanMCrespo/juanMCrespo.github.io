@@ -84,8 +84,23 @@ body {
 	outline: 2px dashed green;
 	margin: 0px;
 	position: relative;
-	top: 0;
+	top: 60px;
 }
 
+#presentacion {
+	outline: 2px dashed orange;
+	font-size: 1.7em; /* Tamaño de letra relativo al tamaño de la letra padre */
+}
+
+.parrafo-intro {
+	outline: 2px dashed black;
+	text-align: justify;
+    padding: 20px;
+}
+
+#button-ingreso {
+	outline: 3px dashed brown;
+	font-size: 1.2em;
+}
 	
 }
