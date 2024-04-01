@@ -68,9 +68,24 @@ body {
 
 @media screen and (max-width: 768px) {
 	/* para dispositivos moviles */
-	
-	body {
-	background-color: red;
+
+body {
+	overflow-y: hidden; /* Evita el scroll vertical */
+	height: auto;
+	outline: 2px dashed red;
+
 }
+	
+.container-primeraCHamba {
+	display:flex;
+	flex-direction: column;
+	width: auto;
+	height: auto;
+	outline: 2px dashed green;
+	margin: 0px;
+	position: relative;
+	top: 0;
+}
+
 	
 }
