@@ -1,0 +1,126 @@
+* {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+	background-color: #eef4f5;
+}
+
+.container-primeraCHamba {
+	position: relative;
+	top: 100px;
+	margin: auto;
+	margin-top: 50px;
+	width: 900px;
+	height: 400px;
+	/* outline: 2px dashed black; */
+}
+
+#presentacion {
+	font-size: 3.5vw;
+	text-align: center;
+	/* outline: 2px dashed black; */
+}
+
+.parrafo-intro {
+    /* outline: 2px dashed black; */	
+    text-align: center;
+    padding: 20px;
+}
+
+#button-ingreso {
+	background-color:  #143076;
+	color: white;
+	margin: auto;
+	padding: 10px 35px;
+	border-radius: 15px;
+	font-size: 1.5vw;
+	display: block;
+	width: fit-content; /* Ancho ajustado al contenido */
+	margin-top: 30px; /* Espacio superior para separar del párrafo */
+	text-decoration: none;
+	cursor:pointer
+}
+
+#button-ingreso:hover {
+	background-color:  #7a92cd;
+	background-color: #8bc6ef;
+
+}
+
+/* Define una animación de desvanecimiento */
+@keyframes desvanecer {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Aplica la animación a los elementos que quieras desvanecer */
+.elemento-a-desvanecer {
+  animation: desvanecer 5s ease forwards;
+}
+
+@media screen and (max-width: 768) {
+	/* para dispositivos moviles */
+
+* {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container-primeraCHamba {
+	position: relative;
+	top: 100px;
+	margin: auto;
+	margin-top: 50px;
+	width: 900px;
+	height: 400px;
+	/* outline: 2px dashed black; */
+}
+
+#presentacion {
+	font-size: 3.5vw;
+	text-align: center;
+	/* outline: 2px dashed black; */
+}
+
+.parrafo-intro {
+    /* outline: 2px dashed black; */	
+    text-align: center;
+    padding: 20px;
+}
+
+#button-ingreso {
+	background-color:  #143076;
+	color: white;
+	margin: auto;
+	padding: 10px 35px;
+	border-radius: 15px;
+	font-size: 1.5vw;
+	display: block;
+	width: fit-content; /* Ancho ajustado al contenido */
+	margin-top: 30px; /* Espacio superior para separar del párrafo */
+	text-decoration: none;
+	cursor:pointer
+}
+
+#button-ingreso:hover {
+	background-color:  #7a92cd;
+	background-color: #8bc6ef;
+
+}
+
+}

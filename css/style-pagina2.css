@@ -1,0 +1,426 @@
+* {
+	margin: 0;
+}
+
+body {
+	animation: aparecer 10s ease forwards;
+	background-color: #eef4f5;
+    color: #19191e;
+    font-family: "Jost", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.title-h2 {
+	font-weight: bold;
+    font-size: 3.5vw;
+    margin: auto;
+    margin-top: 29px;
+    width: 40%;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    text-align:center;
+    z-index: 2;
+}
+
+/** MENU **/
+
+.menu-header {
+	animation: aparecer 5s ease forwards;
+	color: #19191e;
+	position: sticky;
+	top: 0;
+	z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+	background-color: #eef4f5; /* Color de fondo del menú */
+	border-bottom: 1px solid #19191e;
+}
+
+.header-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; /* Distribuye los elementos del header */
+	align-items: center;
+}
+
+#profile-menu {
+	display: flex;
+	align-items: center;
+	gap: 20px; /* Espacio entre elementos del menú */
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#list-menu {
+	display: flex;
+	flex-direction: row;
+	gap: 20px; /* Espacio entre elementos del menú */
+	margin-right: 50px;
+}
+
+#list-menu a {
+	text-decoration: none; /* Elimina el subrayado de los enlaces */
+	color: #19191e;
+	
+}
+
+#list-menu a:hover {
+	color: #00BBFF;
+	text-decoration: underline;
+}
+
+#list-menu li {
+	list-style-type: none; /* Elimina los puntos de la lista */	
+	margin: 20px;
+}
+
+.perfil-photo {
+	margin-left: 10px;
+	background-image: url('../img/foto1.jpeg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	border-radius: 200px;
+	border: 2px solid #19191e;
+	width: 60px; /* Tamaño de la foto de perfil */
+	height: 60px;
+}
+/***FIN MENU *****/
+
+
+
+/****SECCION 1 SOBRE MI****/
+
+#seccion-personal {
+	background-color: #e5e7e9;
+	width: 150xp;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+#seccion-personal {
+	outline: 1px solid black;
+}
+
+#seccion-personal p {
+	padding: 25px;
+	line-height: 2;
+	text-align: justify;
+	font-weight: bold;
+	/*height: 100%; */
+	margin: 40px 0px;
+	/*margin-top: 5px;*/
+	padding: 45px 80px 45px 80px ;
+	/*outline: 1px dashed black; */
+	background-image: linear-gradient(to bottom, #606468, #d4dfea);
+}
+
+
+
+#seccion-personal h3 {
+    font-size: 1.3vw;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+	width: 550px;
+
+}
+
+#seccion-personal ul {
+	list-style: none;
+}
+
+#seccion-personal ul li {
+	background-color: rgba(153,153,153,0.2); /* ok */
+	color: #666; /* ok */
+	margin-bottom: 16px; /* ok */
+	margin-right: 20px; /* ok */
+	padding: 10px 20px; /* ok */
+	border-radius: 5px; /* ok */
+	text-align: center; /* ok */
+	font-weight: 600; /* ok */
+	font-size: 1.1vw; /* ok */
+}
+
+.technical-soft {
+	display: flex;
+	flex-direction: column;
+
+}
+
+#technical {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right: 25px;
+}
+
+#soft {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 10px;
+
+}
+
+#seccion-personal .habilities {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+#seccion-personal a {
+	display: inline-block;
+	margin: 10px;
+	margin-left: 45px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#seccion-personal a:link {color: red;}
+#seccion-personal a:hover {color: black;}
+#seccion-personal a:visited {color: blue; text-decoration: underline; }
+#seccion-personal a:active {background-color: green; color: white;}
+
+.line {
+	border: 1px solid #19191e;
+}
+
+/*FIN SECCION 1 SOBRE MI***/
+
+
+
+/***SECCION 2 PROYECTOS****/
+
+#seccion-proyectos {
+	background-color: #eef4f5;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.proyect-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.imagenes-proyectos {
+	border: 15px solid #383b42;
+	width: 400px;
+	height: 250px;
+	border-radius: 20px;
+	transition: all 0.3s ease;
+}
+
+#seccion-proyectos a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;	
+	margin: auto;
+}
+
+.box-img, .box-text {
+	margin: auto;
+	padding: 50px;
+	width: 500px ;
+	height: 300px;
+}
+
+.box-text h3,p,button {
+	margin: 10px;
+}
+
+.box-text h3 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+	
+}
+
+.box-text button {
+	margin: 70px 15px 0px 10px;
+	padding: 8px;
+	background-color: #344754;
+	color: white;
+	border-radius: 15px;
+	width: 200px;
+	font-weight: bold;
+    font-size: 18px;
+   	cursor:pointer;
+}
+
+
+/***FIN SECCION PROYECTOS*****/
+
+
+/***SECCION CONTACTOS*****/
+
+.form-contact {
+	background-image: url('../img/pexels-pixabay-461960.jpg'); /* Ruta a tu imagen de fondo */
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+	background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+	background-position: center; /* Centra la imagen de fondo */
+	width: 300xp;
+	height: 1000px;
+	color: white;
+	position: relative;
+	opacity: 0.8;
+}
+
+.form-contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Cambia el color de fondo con opacidad */
+    z-index: -1; /* Asegura que la capa esté detrás de otros elementos */
+}
+
+#seccion-form form {
+    background-color: rgba(0, 0, 0, 0.5); /* Color blanco con 80% de opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+    padding: auto;
+    width: 43%;    
+}
+
+#seccion-form h2 {
+	color: #19191e;	
+}
+
+#seccion-form fieldset {
+	text-align: right;
+	padding: 20px;
+}
+
+#seccion-form .form-registro label {
+	font-size: 18px;
+    transition: font-size 0.3s ease-in-out; /* Se agregó transición para animaciones suaves */
+	padding-right: 20px;
+}
+
+#seccion-form .form-registro input {
+	background-color: white;
+	width: 55%;
+	transition: width 0.5s ease; /* Transición suave de 0.5 segundos para el cambio de ancho */
+}
+
+#seccion-form .button {
+	text-align: center;
+}
+
+#seccion-form .button input{
+	margin: 7px 15px 0px 18px;
+	padding: 8px;
+	background-color: #344754;
+	color: white;
+	border-radius: 15px;
+	width: 200px;
+	font-weight: bold;
+    font-size: 18px;
+   	cursor:pointer;
+}
+
+#seccion-form p {
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+#seccion-form .hov:hover {
+	background-color: #8bc6ef;
+}
+
+#seccion-form .vis:focus {
+  background-color:  #eafaf1;
+  width: 320px; /* Ancho al que se agranda el input cuando está en foco */
+}
+
+#seccion-form #message {
+	  width: 370px;
+      height: 220px; /* Altura inicial */
+
+}
+
+
+
+/*** FIN SECCION CONTACTOS ***/
+
+/*** FOOTER ***/
+
+#label-message {
+	position: relative;
+	bottom: 207px;
+	right: 5px;
+}
+
+.social-icon {
+	width: 30px; /* Ajusta el tamaño según tu imagen */
+	height: 30px; /* Ajusta el tamaño según tu imagen */
+	color:  #19191e;
+}
+
+.footer-container {
+	display: grid;
+	grid-template-columns: 2% repeat(8, 1fr) 2%;
+	grid-template-rows: repeat(6, 1fr);
+  	background-color:  #808080;  /* #7f1a93 */
+	color:  #19191e;
+	width: 100%;
+	height: 330px;
+	border-top: 2px solid #19191e;
+	gap: 10px; /* Espacio entre las celdas */
+}
+
+.left-text { /* caja1 */
+	grid-area: 2/ 2 / 4 / 5; /* Inicio en la fila , columna ; fin en la fila , columna  */
+	padding: 5px;
+	width: fit-content;
+	height: fit-content;
+	text-align: justify;
+}
+
+.copyright { /* caja2 */
+	grid-column: 1 / -1;
+	grid-row: 6;
+	width: 100%;
+	border-top: 2px solid #22222a;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.container-icons { /* caja3*/
+	grid-area: 2 / 9 / 8 / 9;
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	height: fit-content;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	bottom: 18px;
+}
+
+/*** FIN FOOTER ***/
+
+
+/****************ANIMACION****************/
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
