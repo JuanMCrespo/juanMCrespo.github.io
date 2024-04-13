@@ -20,18 +20,21 @@
 			<div id=profile-menu>	
 				<div class="perfil-photo"></div>
 				<span id=title-menu>Juan M. Crespo</span>
+				<div id="burguerking-menu">
+					<button id=burger-menu onclick="myFunction()"></button>
+				</div>
+		</div>
+
 			</div>
 
-			<div>
+			<div id=back-list>
 				<ul id=list-menu>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="#seccion-personal">Sobre Mi</a></li>
-					<li><a href="#seccion-proyectos">Proyectos</a></li>
-					<li><a href="#seccion-form">Contacto</a></li>
+					<li><a href="index.html" onclick="myFunction()" >Inicio</a></li>
+					<li><a href="#seccion-personal" onclick="myFunction()">Sobre Mi</a></li>
+					<li><a href="#seccion-proyectos" onclick="myFunction()">Proyectos</a></li>
+					<li><a href="#seccion-form" onclick="myFunction()">Contacto</a></li>
 				</ul>
 			</div>
-
-		</div>
 
 	</header>
 	
@@ -89,8 +92,6 @@
 
 		</section>
 		
-		<hr class=line>
-
 
 		<section class="" id="seccion-proyectos">
 			<h2 class="title-h2" >Proyectos</h2>
@@ -152,7 +153,6 @@
 
 		</section>
 		
-		<hr class=line>
 	
 		<section class="form-contact" id="seccion-form">
 			  <h2 class="title-h2" >Contacto</h2>
@@ -199,14 +199,10 @@
 -->
 				 <!-- Texto a la izquierda -->
 				<div class="left-text">
-					<h4>Juan M. Crespo</h4>
-					<br>
-					<p>Esta pagina fue creada en colaboracion con chatgpt, no tengo todas las respuestas (nadie las tiene) pero considero util aplicar con las nuevas tecnologias y aprovecharlas. Al fin y al cabo es una herramienta más.</p>
+					<p>Esta pagina fue creada en colaboracion con CHATGPT, no tengo todas las respuestas (nadie las tiene) pero considero util aplicar con las nuevas tecnologias y aprovecharlas. Al fin y al cabo es una herramienta más.</p>
 				</div>
 
-
 					<p class="copyright">&copy; 2024 Juan M. Crespo. Todos los derechos reservados.</p>
-
 				
 				<div class="container-icons">
 					<a href="https://www.facebook.com/" target="_blank" ><img class="social-icon" src="img/facebook.png" alt="Facebook"></a>
@@ -219,6 +215,8 @@
 
 			</div>
 	</footer>
+	
+	<script src="js/script.js"></script>
 
 </body>
 
