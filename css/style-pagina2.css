@@ -312,7 +312,6 @@ body {
     font-weight: bold;
     font-size: 18px;
     margin: auto;
-    padding: auto;
     width: 45%;    
 }
 
@@ -404,7 +403,6 @@ body {
 }
 
 .left-text { /* caja1 */
-	background-color: ;
 	grid-area: 2/ 2 / 4 / 5; /* Inicio en la fila , columna ; fin en la fila , columna  */
 	padding: 15px;
 	width: fit-content;
@@ -413,6 +411,7 @@ body {
 }
 
 .copyright { /* caja2 */
+	padding: 45px;
 	grid-column: 1 / -1;
 	grid-row: 6;
 	border-top: 2px solid #22222a;
@@ -445,79 +444,4 @@ body {
   to {
     opacity: 1;
   }
-}
-
-@media screen and (max-width: 768px) {
-	/*Dispositivos moviles*/
-
-/** MENU **/
-
-.header-content {
-	justify-content: space-between; /* Distribuye los elementos del header */
-	align-items: center;
-	
-	display: inline-block;
-	flex-direction: column;
-
-}
-
-#profile-menu {
-	display: flex;
-	align-items: center;
-	gap: 20px; /* Espacio entre elementos del menú */
-	margin-left: 20px;
-	margin-right: 10px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-#list-menu {
-	display: flex;
-	flex-direction: row;
-	gap: 20px; /* Espacio entre elementos del menú */
-	margin-right: 50px;
-}
-
-#list-menu a {
-	text-decoration: none; /* Elimina el subrayado de los enlaces */
-	color: #19191e;
-	
-}
-
-#list-menu a:hover {
-	color: #00BBFF;
-	text-decoration: underline;
-}
-
-#list-menu li {
-	list-style-type: none; /* Elimina los puntos de la lista */	
-	margin: 20px;
-}
-
-.perfil-photo {
-	margin-left: 10px;
-	background-image: url('../img/foto1.jpeg');
-	background-size: cover;
-	background-position: top;
-	background-repeat: no-repeat;
-	border-radius: 200px; /* 200px */
-	border: 2px solid #19191e;
-	width: 60px; /* 60px Tamaño de la foto de perfil */
-	height: 60px; /* 60px*/
-}
-
-/***FIN MENU *****/
-
-
-}
-
-
-@media screen and (max-width: 580px) {
-.perfil-photo {
-	border-radius: 50%; /* 200px */
-	width: 55px; /* 60px Tamaño de la foto de perfil */
-	height: 55px; /* 60px*/
-}
-	
-
 }
