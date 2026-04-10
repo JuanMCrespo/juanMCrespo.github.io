@@ -421,7 +421,7 @@ body {
 }
 
 .container-icons {
-	grid-area: 2 / 9 / 7 / 9;
+	grid-area: 2 / 9 / 8 / 9;
 	display: flex;
 	flex-direction: column;
 	width: 100px;
