@@ -420,17 +420,16 @@ body {
 	align-items: center;	
 }
 
-.container-icons { /* caja3*/
+.container-icons {
 	grid-area: 2 / 9 / 8 / 9;
 	display: flex;
-	flex-direction: row;
-	gap: 15px;
+	flex-direction: column;
 	width: 100px;
 	height: fit-content;
 	align-items: center;
 	justify-content: center;
-	position: relative;
-	bottom: 18px;
+	justify-self: center;
+	align-self: center;
 }
 
 /*** FIN FOOTER ***/
