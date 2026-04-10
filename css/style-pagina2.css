@@ -420,8 +420,8 @@ body {
 	align-items: center;	
 }
 
-.container-icons {
-	grid-area: 2 / 9 / 8 / 9;
+container-icons {
+	grid-area: 2 / 9 / 6 / 9;
 	display: flex;
 	flex-direction: column;
 	width: 100px;
@@ -429,7 +429,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	justify-self: center;
-	align-self: center;
 }
 
 /*** FIN FOOTER ***/
